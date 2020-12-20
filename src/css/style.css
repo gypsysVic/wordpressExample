@@ -2,58 +2,340 @@
 
 * {
     box-sizing: border-box;
-    font-family: Roboto;
-    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
 
-.main_section {
-    background-image: url(img/main_bg.jpg);
+.promo {
+    background: url('../img/main_bg.jpg') center center / cover no-repeat;
+    height: 800px;
+    padding: 38px 0px 61px;
 }
 
 .container {
-    margin: 1px 389px 0px 391px;
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
 }
 
-.upper {
-    text-transform: uppercase;
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    padding-top: 9px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
     text-align: center;
-}
-
-.bold_yellow_text {
+    margin: 0 auto;
     text-transform: uppercase;
-    font-weight: bold;
-    color: #F9BF3B;
 }
 
-.btn-enter {
+.title {
+    padding-top: 20px;
+    color: #F9BF3B;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.easy_text .easy_title {
+    padding-top: 20px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main_part {
+    padding-top: 32px;
+}
+
+.description_text {
+    color: white;
+    text-align: center;
+    margin-top: 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.description_text span {
+    text-transform: uppercase;
+    color: #F9BF3B;
+    font-weight: bold;
+}
+
+.btn_enter {
+    display: block;
+    margin: 0 auto;
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-    margin: 0px 413px 0px 114px;
-    width: 313px;
-    height: 72px;
     color: white;
-    text-transform: uppercase;
+    margin-top: 72px;
+    text-align: center;
+    padding: 23px 15px 24px 14px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
     font-size: 21px;
     line-height: 24px;
-    font: Roboto Condensed;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-.yellow-line {
+.more {
+    margin: 0px auto;
+    margin: 70px;
+}
+
+.more .more_text {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0px auto;
+    margin-top: 13px;
+}
+
+.waiting {
+    padding: 85px 0 75px 0;
+    min-height: 607px;
+    background-color: #EFEFEF;
+}
+
+.waiting .waiting_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.waiting .devider {
+    margin: 0 auto;
+    margin-top: 18px;
     width: 220px;
     height: 7px;
-    left: 851px;
-    top: 129px;
     background: #F9BF3B;
 }
 
-.icon {
-    display: inline-block;
-    position: relative;
-    vertical-align: top;
-    width: 200px;
+.waiting .waiting_minititle {
+    margin-top: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
 }
 
-.icom img {
-    width: 342px;
-    height: 201px;
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.waiting .waiting_wrapper .item {
+    width: 339px;
+    display: inline-block;
+}
+
+.waiting .waiting_wrapper .item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .item .waiting_desc {
+    margin-top: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.optimisation {
+    margin: 0 auto;
+    padding: 102px 0 107px 0;
+    min-height: 502px;
+}
+
+.optimisation .optimisation_title {
+    margin-left: 391px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimisation .optimisation_p {
+    margin-left: 391px;
+    margin-top: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.optimisation .optimisation_p_bold {
+    margin-left: 391px;
+    margin-top: 8px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+}
+
+.optimisation .optimisation_bg {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+
+.cando {
+    margin-top: -25px;
+    background-image: url(../img/second_bg.jpg);
+    min-height: 450px;
+}
+
+.cando .cando_title {
+    padding-top: 86px;
+    color: #EFEFEF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cando .devider {
+    margin: 0 auto;
+
+    margin-top: 18px;
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+}
+
+.cando .icons {
+    margin-top: 39px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.cando .icons .icon {
+
+    width: 208px;
+}
+
+.cando .icons .icon .icon_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.cando .icons .icon .icon_bg {
+
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.cando .icons .icon .icon_bg img {
+
+    display: block;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.cando .icons .icon .icon_text {
+    margin-top: 25px;
+}
+
+.gift {
+    padding: 88px 0px 88px 0px;
+    min-height: 631px;
+    background-color: #EFEFEF;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text {
+    margin-top: 45px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 43px;
+    align-items: center;
+    text-align: center;
+    color: #252525;
+
+}
+
+.gift .gift_enter {
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    margin-top: 72px;
+    text-align: center;
+    padding: 23px 15px 24px 14px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
